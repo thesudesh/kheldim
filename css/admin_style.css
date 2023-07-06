@@ -156,6 +156,8 @@ section{
 
 .form-container{
    min-height: 100vh;
+   background-image: url("dp.JPG");
+   background-size: cover;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -217,17 +219,17 @@ section{
 
 .header .flex .logo{
    font-size: 2.5rem;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .logo span{
-   color:var(--main-color);
+   color:var(--orange);
 }
 
 .header .flex .navbar a{
    margin:0 1rem;
    font-size: 2rem;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .navbar a:hover{
@@ -239,7 +241,7 @@ section{
    margin-left: 1.7rem;
    font-size: 2.5rem;
    cursor: pointer;
-   color:var(--black);
+   color:var(--light-bg);
 }
 
 .header .flex .icons div:hover{
@@ -638,38 +640,40 @@ section{
 
 /* Manually inserted container */
 
-.dashboard .box-container .don.container{
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
-   gap:1.5rem;
-   justify-content: center;
-   align-items: flex-start;
-}
 
 
-.dashboard .box-container .don.container .don{
-   padding:2rem;
+.dashboard .box-container .don{
+   padding:5rem;
+   box-sizing: border-box;
+   background-image: url("bg1.jpg");
    text-align: center;
    border:var(--border);
-   box-shadow: var(--box-shadow);
-   border-radius: .5rem;
+   box-shadow: var(--red);
+   border-radius: 2rem;
    background-color: var(--light-bg);
 }
 
 .dashboard .box-container .don h3{
-   font-size: 2.7rem;
-   color:var(--black);
+   font-size: 3rem;
+   color:var(--light-bg);
 }
 
 .dashboard .box-container .don h3 span{
-   font-size: 2rem;
+   font-size: 3rem;
 }
 
 .dashboard .box-container .don p{
    padding:1.3rem;
    border-radius: .5rem;
-   background-color: var(--light-bg);
-   font-size: 1.7rem;
-   color:var(--black);
+   font-size: 2.5rem;
+   color:var(--light-bg);
    margin:1rem 0;
 }
+
+.dashboard .box-container .don a.btn{
+   background-color:var(--orange);
+}
+.dashboard .box-container .don a.btn:hover{
+   background-color:var(--light-color);
+}
+
