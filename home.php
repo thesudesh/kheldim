@@ -48,7 +48,7 @@ include 'components/wishlist_cart.php';
             <img src="images/home-img-1.png" alt="">
          </div>
          <div class="content">
-            <span>Nepal's First Ever</span>
+            <span>Pop up</span>
             <h3>Premium Sportswear</h3>
             <a href="shop.php" class="btn">shop now</a>
          </div>
