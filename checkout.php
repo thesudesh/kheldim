@@ -120,13 +120,10 @@ if(isset($_POST['order'])){
             </select>
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
+            <span>address :</span>
             <input type="text" name="flat" placeholder="e.g. flat number" class="box" maxlength="50" required>
          </div>
-         <div class="inputBox">
-            <span>address line 02 :</span>
-            <input type="text" name="street" placeholder="e.g. street name" class="box" maxlength="50" required>
-         </div>
+         
          <div class="inputBox">
             <span>city :</span>
             <input type="text" name="city" placeholder="e.g. mumbai" class="box" maxlength="50" required>

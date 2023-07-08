@@ -84,6 +84,19 @@ if (!isset($admin_id)) {
                   <a href="admin_accounts.php" class="btn">see admins</a>
                </div>
 
+               
+               <div class="box">
+                  <?php
+                  $select_category = $conn->prepare("SELECT * FROM `products`");
+                  $select_category->execute();
+                  $number_of_category = $select_category->rowCount()
+                  ?>
+                  <h3><?= $number_of_category; ?></h3>
+                  <p>Categories</p>
+                  <a href="category.php" class="btn">See Categories</a>
+               </div>
+           
+
                <div class="box">
                   <?php
                   $select_messages = $conn->prepare("SELECT * FROM `messages`");
@@ -94,7 +107,7 @@ if (!isset($admin_id)) {
                   <p>new messages</p>
                   <a href="messages.php" class="btn">see messages</a>
                </div>
-           
+
          </div>
 
    </section>

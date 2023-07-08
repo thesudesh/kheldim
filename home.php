@@ -88,7 +88,7 @@ include 'components/wishlist_cart.php';
 
 <section class="category">
 
-   <h1 class="heading">Categories</h1>
+   <h1 class="heading">shop by category</h1>
 
    <div class="swiper category-slider">
 
@@ -104,7 +104,7 @@ include 'components/wishlist_cart.php';
       <h3>Short</h3>
    </a>
 
-   <a href="category.php?category=camera" class="swiper-slide slide">
+   <a href="category.php?category=Shoes" class="swiper-slide slide">
       <img src="images/icon-3.png" alt="">
       <h3>Shoes</h3>
    </a>
@@ -142,6 +142,7 @@ include 'components/wishlist_cart.php';
 
 </section>
 
+
 <section class="home-products">
 
    <h1 class="heading">latest products</h1>
@@ -166,7 +167,7 @@ include 'components/wishlist_cart.php';
       <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
       <div class="name"><?= $fetch_product['name']; ?></div>
       <div class="flex">
-         <div class="price"><span>$</span><?= $fetch_product['price']; ?><span>/-</span></div>
+         <div class="price"><span>Rs. </span><?= $fetch_product['price']; ?><span>/-</span></div>
          <input type="number" name="qty" class="qty" min="1" max="99" onkeypress="if(this.value.length == 2) return false;" value="1">
       </div>
       <input type="submit" value="add to cart" class="btn" name="add_to_cart">
