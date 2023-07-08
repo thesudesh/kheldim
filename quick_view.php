@@ -57,7 +57,6 @@ include 'components/wishlist_cart.php';
             <div class="sub-image">
                <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
                <img src="uploaded_img/<?= $fetch_product['image_02']; ?>" alt="">
-               <img src="uploaded_img/<?= $fetch_product['image_03']; ?>" alt="">
             </div>
          </div>
          <div class="content">
