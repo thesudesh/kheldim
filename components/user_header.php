@@ -15,7 +15,7 @@
 
    <section class="flex">
 
-      <a href="home.php" class="logo">kheldim<span>.</span></a>
+      <a href="home.php" class="logo"><span>kheldim</span></a>
 
       <nav class="navbar">
          <a href="home.php">home</a>
